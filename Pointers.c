@@ -15,6 +15,13 @@ printf("%i \n" , n);
 printf("%p" , &n);
 }
 
+int main(void)
+{
+ int n = 5;
+ int *Jorge = &n; //pointer variable(*)//
+
+printf("%p \n", Jorge); //Pointer variable storing the address of a value//
+}
 
 
 
